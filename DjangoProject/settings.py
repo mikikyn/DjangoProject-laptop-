@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -132,6 +133,11 @@ STATIC_ROOT = BASE_DIR / 'back_static'
 MEDIA_ROOT = BASE_DIR / "media"
 
 MEDIA_URL = "/media/"
+
+JAZZMIN_UI_TWEAKS = {
+
+    "theme": "darkly",
+}
 
 
 # Default primary key field type
